@@ -5,7 +5,7 @@ import keyboard
 import time
 
 # path to xlsx with phone numbers goes here
-sheet = pd.read_excel("Copy of MOJO Adams 2K list 1.20 OOS(LCmobile1+phone1)(HV)(phone1).xlsx")
+sheet = pd.read_excel('')
 
 # make sure column with phone numbers is named Phone1
 phone_number = sheet['Phone1']
